@@ -58,3 +58,12 @@ class Mkulima{
     
     farm1.removeFarm("001");
     console.log()
+    farm1.addProduct("004", "Avocados", 45)
+    farm1.addProduct("010", "Ngwashe", 100)
+    farm1.removeProduct("004")
+    farm1.updateProduct("010", "030", "potatoes", 150)
+    farm1.getProduct("030")
+    farm1.printProducts();
+    
+
+    console.log(farm1.calculateOrderCost("030", 30));
